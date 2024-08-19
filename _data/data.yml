@@ -8,50 +8,40 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Alan Doe
-    tagline: Full Stack Developer
-    avatar: profile.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    name: Ajay Mishael Immanuael
+    tagline: Backend Developer
+    avatar: profile_ajay.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
-    email: example@email.com
-    phone: 012 345 6789
-    timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-    citizenship:
-    website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-    linkedin: alandoe
-    xing: alandoe
-    github: jekyll
-    telegram: # add your nickname without '@' sign
-    gitlab:
-    bitbucket:
-    twitter: '@jekyllrb'
-    stack-overflow: # Number/Username, e.g. 123456/alandoe
-    codewars:
-    goodreads: # Number-Username, e.g. 123456-alandoe
-    mastodon:  # Please include your full Mastodon link here.
-    hackerrank: # Please provide your HackerRank username.
-    leetcode: # Please provide your LeetCode username.
-    pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+    email: mishaelajay@gmail.com
+    phone: +49 177 144 5749 / +91 974106470
+    timezone: Berlin/Germany # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+    citizenship: Indian
+    linkedin: https://www.linkedin.com/in/ajay-m-00689182/
+    github: mishaelajay
 
     languages:
       title: Languages
       info:
         - idiom: English
-          level: Native
-
-        - idiom: French
           level: Professional
 
-        - idiom: Spanish
+        - idiom: Tamil
+          level: Native
+
+        - idiom: Malayalam
+          level: Professional
+
+        - idiom: Hindi
           level: Professional
 
     interests:
       title: Interests
       info:
-        - item: Climbing
+        - item: Working out
           link:
 
-        - item: Snowboarding
+        - item: Travelling
           link:
 
         - item: Cooking

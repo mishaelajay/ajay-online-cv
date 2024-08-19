@@ -8,13 +8,13 @@ sidebar:
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
-    name: Ajay Mishael Immanuael
+    name: Ajay Mishael
     tagline: Backend Developer
-    avatar: profile_ajay.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: profile_ajay.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: mishaelajay@gmail.com
-    phone: +49 177 144 5749 / +91 974106470
+    phone: +91 974106470
     timezone: Berlin/Germany # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
     citizenship: Indian
     linkedin: https://www.linkedin.com/in/ajay-m-00689182/
@@ -48,211 +48,112 @@ sidebar:
           link:
 
 career-profile:
-    title: Career Profile
+    title: Summary
     summary: |
-      Summarise your career here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. You can [download this free resume/CV template here]().
-      Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-      penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-      Donec quam felis, ultricies nec, pellentesque eu.
-      Second paragraph if required.
+      I'm a software engineer with 6 years of experience in full-stack development, 
+      primarily using Ruby on Rails and Flask. I've built and scaled applications from
+      scratch in small teams and contributed to the growth of larger projects.
+      I'm passionate about writing clean code, mentoring others, and continuously 
+      learning to enhance my skills.
+
 education:
     title: Education
     info:
-      - degree: MSc in Computer Science
-        university: University of London
-        time: 2011 - 2012
+      - degree: Masters in Computer Applications
+        university: Christ University, Bengaluru
+        time: 2015 - 2018
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - degree: BSc in Applied Mathematics
-        university: Bristol University
-        time: 2007 - 2011
+          Focus on Advanced Operating Systems, Data Structures, Software Project Management,
+          Networks, Data Warehousing and Data Mining.
+      - degree: Bachelors in Computer Applications
+        university: Kristu Jayanti College, Bengaluru
+        time: 2012 - 2015
         details: |
-          Describe your study here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-          sociis natoque penatibus et magnis dis parturient montes, nascetur
-          ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-          pretium quis, sem.
-            - Bullet point
-            - Bullet point
+          Skills and knowledge to design, develop, and implement computer software applications
 
 experiences:
     title: Experiences
     info:
-      - role: Lead Developer
-        time: 2015 - Present
-        company: Startup Hubs, San Francisco
+      - role: Fullstack Developer
+        time: 2023 - 2024
+        company: ioki, Frankfurt
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-          enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-          error sit voluptatem accusantium doloremque laudantium, totam rem
-          aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-          architecto beatae vitae dicta sunt explicabo.
-            - Bullet point
-            - Bullet point
-      - role: Senior Software Engineer
-        time: 2014 - 2015
-        company: Google, London
+          - Implemented and architected the feature to allow large geographical data imports (GTFS, Openstreetmap etc) using Sidekiq pro.
+          - Implemented complex queries in Postgis that help in creating directions for bus routes.
+          - Revamped the and built the entire UI from scratch using Tailwind CSS, Stimulus JS and Turbo.
+          - Worked with Geodata. Enabled CRUD operations for objects with Geodata by integration MapboxGL js and Mapbox draw.
+          - Implemented CRUD operations for objects with Geodata using Mapbox and Stimulus
+          - Implemented advanced search using Ransack.
+      - role: Software Engineer
+        time: 2022 - 2023
+        company: Clark, Frankfurt
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-      - role: UI Developer
-        time: 2012 - 2014
-        company: Amazon, London
+          - Built multiple API endpoints for OPSui i.e CLARKs marketing funnel. Worked on the Salesforce integration for OPSui
+          - Rewrote thousand’s of lines of legacy code.
+          - Monitored and upgraded mission critical dependencies.
+          - Ported workers to Sidekiq from DelayedJob.
+          - Fixed multiple highest priority bugs related to Salesforce/OPSui
+          - Improved performance and load times of multiple pages on OPSui by rewriting SQL queries and using turbolinks.
+      - role: Fullstack Developer
+        time: 2021 - 2022
+        company: Sharpen, Boston
         details: |
-          Describe your role here lorem ipsum dolor sit amet, consectetuer
-          adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-          Cum sociis natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Donec quam felis, ultricies nec,
-          pellentesque eu, pretium quis, sem.
-            - Bullet point
-            - Bullet point
-
-certifications:
-      title: Certifications
-      list:
-        - name: CV Builder
-          start: 2020
-          end: 2021
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.google.com
-          credentialname: Google
-          details: |
-            Details about cert. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-            Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-            fringilla vel. Ut euismod, sem sed vulputate venenatis,
-            justo diam viverra velit, sed rhoncus leo leo eu justo.
-            Suspendisse placerat risus ante, sed porta nisi blandit at.
-        - name: Git learning
-          start: 2019
-          end:
-          organization: Microsoft
-          credentialid: 111-222
-          credentialurl: www.github.com
-          credentialname: Github
-          details: |
-            Older certification. Lorem ipsum dolor sit amet, consectetur
-            adipiscing elit.
-            Nullam eget orci purus. Nullam ultrices neque nibh.
-            Aenean fermentum, felis vulputate suscipit accumsan,
-            sem enim bibendum augue, sed convallis arcu lacus at dui.
-            Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-            Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-            Praesent venenatis erat non augue suscipit consectetur.
-
-projects:
-    title: Projects
-    intro: >
-      You can list your side projects in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
-
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+          - Integrated third-party APIs and developed a Genetic Kit registration wizard for processing genetic samples.
+          - Built Sidekiq background workers and webhook endpoints for external API management and genetic assessment results.
+          - Implemented scalable notification systems and front-end features like drag-and-drop image uploads using Stimulus JS.
+          - Optimized code with DRY and SRP principles, and configured CircleCI for automated testing and deployment.
+          - Developed payment systems with Stripe and enhanced system reliability through error handling, logging, and bug fixes.
+      - role: Software Engineer
+        time: 2021 - 2022
+        company: Bigbinary, Pune
+        details: |
+          - Developed a comprehensive Ruby knowledge base for onboarding new hires.
+          - Authored 100+ Ruby practice questions for Bigbinary Academy.
+          - Mentored junior developers through pair programming and code reviews.
+          - Acted as team lead during client projects, managing tasks and guiding the team.
+          - Facilitated effective communication between the Bigbinary team and clients.
+      - role: Backend Engineer
+        time: 2018 - 2021
+        company: Synup, Bengaluru
+        details: |
+          - Engineered and maintained GraphQL endpoints, and REST APIs using Python (Flask) and Ruby on Rails within an Agile development framework.
+          - Developed RESTful APIs with JWT token-based authentication, enabling secure access to location/listings data and supporting full CRUD operations.
+          - GraphQL Migration and Optimization: Transitioned multiple system components from REST to GraphQL, resulting in a 30% reduction in load times and data bandwidth usage.
+          - Third-Party API Integration: Integrated various third-party APIs (e.g., Manta, Infobel, IGlobal, Hotfrog) into Python and Ruby microservices, expanding system capabilities and data sources.
 
 oss:
     title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
     contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+      - title: Sidekiq
+        link: "https://github.com/sidekiq/sidekiq"
+        tagline: "Found and fixed a bug in Sidekiq"
 
 publications:
     title: Publications
-    intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
-
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: SECURING IOT NETWORKS USING AN ONION ROUTING BASED APPROACH
+        link: "https://iaeme.com/MasterAdmin/Journal_uploads/IJMET/VOLUME_9_ISSUE_3/IJMET_09_03_101.pdf"
+        authors: Ajay Mishael and Prof. Joy Paulose
+        conference:
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
+      - name: Ruby on Rails
         level: 98%
 
-      - name: Javascript & jQuery
+      - name: Python and Flask
         level: 98%
 
-      - name: Angular
+      - name: Postgresql
         level: 98%
 
-      - name: HTML5 & CSS
+      - name: HTML & CSS
         level: 95%
 
-      - name: Ruby on Rails
+      - name: Stimulus JS + Hotwire
         level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
 
 footer: >
     Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>

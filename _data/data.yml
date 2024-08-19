@@ -75,7 +75,7 @@ experiences:
     title: Experiences
     info:
       - role: Fullstack Developer
-        time: 2023 - 2024
+        time: 2023 - Present
         company: ioki, Frankfurt
         details: |
           - Implemented and architected the feature to allow large geographical data imports (GTFS, Openstreetmap etc) using Sidekiq pro.
